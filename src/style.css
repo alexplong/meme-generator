@@ -5,3 +5,46 @@
 h1, h2, h3, h4, h5, h6, p, span, a {
   margin: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: #FFFFFF;
+  font-family: Karla, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 550px;
+  height: 65px;
+}
+
+.header--icon {
+  width: 31.31px;
+  height: 26.22px;
+  margin-left: 20px;
+}
+
+.header--title {
+  font-weight: 700;
+  font-size: 20.7482px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  margin-inline: 6.69px auto;
+}
+
+.header--subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  margin-right: 37px;
+}
