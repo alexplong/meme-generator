@@ -16,35 +16,75 @@ body {
 header {
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: #FFFFFF;
-  font-family: Karla, sans-serif;
+  font-family: 'Karla', 'sans-serif';
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 550px;
   height: 65px;
+  padding: 20px;
 }
 
 .header--icon {
-  width: 31.31px;
-  height: 26.22px;
-  margin-left: 20px;
+  height: 100%;
+  margin-right: 6.69px;
 }
 
 .header--title {
   font-weight: 700;
-  font-size: 20.7482px;
+  font-size: 1.25rem;
   font-style: normal;
   line-height: 24px;
   letter-spacing: -0.1em;
-  margin-inline: 6.69px auto;
+  margin-right: auto;
 }
 
 .header--subtitle {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: .75rem;
   line-height: 15px;
   text-align: right;
-  margin-right: 37px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2.25em;
+}
+
+.form--input_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  margin-bottom: 15px;
+}
+
+.form--input_left, .form--input_right {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.form--button {
+  font-family: 'Karla', 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.1em;
+
+  width: 477px;
+  height: 40px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
 }
