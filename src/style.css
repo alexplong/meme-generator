@@ -88,3 +88,11 @@ header {
   border: 0;
   cursor: pointer;
 }
+
+.meme--container {
+  width: 477px;
+}
+
+.meme {
+  max-width: 100%;
+}
