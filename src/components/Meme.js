@@ -12,7 +12,6 @@ function Meme() {
   const [allMemes, setAllMemes] = React.useState([]);
 
   React.useEffect(() => {
-    console.log("effect ran");
     fetch(`https://api.imgflip.com/get_memes`)
       .then((response) => response.json())
       .then((data) => setAllMemes(data.data.memes));
